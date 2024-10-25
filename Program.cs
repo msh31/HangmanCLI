@@ -32,3 +32,4 @@ while (attemptCount < maxAttempts && !correct)
 
 if (!correct)
     drawing.WriteColoredText($"Out of attempts! The word was: {randomWord}", ConsoleColor.Red, true);
+    Console.ReadKey();
